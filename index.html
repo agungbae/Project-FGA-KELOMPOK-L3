@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Booking Tiket Pesawat</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<h1 class="logo">Travel.id</h1>
+		<nav>
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Tiket Pesawat</a></li>
+				<li><a href="#">Hotel</a></li>
+				<li><a href="#">Paket Liburan</a></li>
+			</ul>
+		</nav>
+		<a href="#" class="icon">&#9776;</a>
+	</header>
+
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>Travel.id</h1>
+      <h1>Menyediakan Layanan Travel untuk Anda</h1>
+      <p>Travel.id adalah platform online untuk layanan travel anda.</p>
+      <p>Kami menawarkan lingkungan travel yang lengkap untuk mempermudah Anda memulai perjalanan liburan.</p>
+      <div class="btn-wrapper">
+        <a href="#" class="btn signup">Daftar dengan Email</a>
+        <p>atau</p>
+        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+        <a href="#" class="btn google"><span class="fa fa-google"></span>Daftar dengan Google</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="travel-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>Tentukan pilihan anda</h2>
+      </div>
+      <div class="travels">
+        <div class="travel">
+          <div class="travel-icon">
+            <img src="https://images.pexels.com/photos/2450221/pexels-photo-2450221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+             <p>JAKARTA</p>
+          </div>
+           <p class="text-contents">Liburan di Jakarta bisa menjadi pengalaman yang menarik karena kota ini memiliki banyak atraksi wisata dan kuliner yang beragam, seperti Monumen Nasional (Monas), Taman Mini Indonesia Indah, dan makanan-makanan lezat. Namun, harus siap menghadapi kemacetan dan polusi udara.</p>
+        </div>
+        <div class="travel">
+          <div class="travel-icon">
+            <img src="https://images.pexels.com/photos/4741215/pexels-photo-4741215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <p>LOMBOK</p>
+          </div>
+          <p class="text-contents">Liburan di Lombok akan mempesona dengan keindahan alamnya yang menakjubkan dan budaya Sasak yang khas. Nikmati pantai-pantai yang bersih dan tenang, mendaki gunung Rinjani, mengunjungi desa-desa tradisional dan menikmati kerajinan tangan anyaman bambu dan songket yang cantik.</p>
+        </div>
+        <div class="travel">
+          <div class="travel-icon">
+            <img src="https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <p>BALI</p>
+          </div>
+          <p class="text-contents">Liburan di Bali akan memukau dengan keindahan alamnya yang menakjubkan, budaya kaya, serta pariwisata yang ramai. Nikmati pantai-pantai spektakuler, kunjungi situs purbakala dan seni tradisional, atau tinggal di hotel dan resort mewah.</p>
+        </div>
+        <div class="travel">
+          <div class="travel-icon">
+            <img src="https://images.pexels.com/photos/15879944/pexels-photo-15879944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <p>LABUAN BAJO</p>
+          </div>
+          <p class="text-contents">Liburan di Labuan Bajo akan memukau dengan keindahan alamnya yang menakjubkan dan kekayaan bawah lautnya yang luar biasa. Kunjungi Taman Nasional Komodo dan Pantai Pink, jelajahi pulau-pulau kecil, dan nikmati kuliner seafood yang lezat.</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="formulir-wrapper">
+    <div class="formulir">
+      <form>
+        <h1>Booking Tiket</h1>
+        
+        <label for="from">Dari:</label>
+        <input type="text" id="from" name="from">
+
+        <label for="to">Ke:</label>
+        <input type="text" id="to" name="to">
+
+        <label for="depart">Tanggal Berangkat:</label>
+        <input type="date" id="depart" name="depart">
+
+        <label for="return">Tanggal Kembali:</label>
+        <input type="date" id="return" name="return">
+
+        <label for="class">Tiket Kelas:</label>
+        <select id="class" name="class">
+          <option value="ekonomi">Ekonomi</option>
+          <option value="bisnis">Bisnis</option>
+          <option value="eksekutif">Eksekutif</option>
+        </select>
+
+        <label for="passengers">Jumlah Penumpang:</label>
+        <select id="passengers" name="passengers">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select><br><br>
+
+        <input type="submit" value="Cari Tiket">
+      </form>
+    </div>
+  </div>
+	
+  <div class="footer">
+    <div class="footer-logo">
+      <h1 class="logo">Travel.id</h1>
+    </div>
+    <div class="footer-list">
+      <ul>
+        <li><a href="#">Home</a></li>
+				<li><a href="#">Tiket Pesawat</a></li>
+				<li><a href="#">Hotel</a></li>
+				<li><a href="#">Paket Liburan</a></li>
+      </ul>
+    </div>
+    <div class="footer-list">
+    <ul>
+      <li><a href="#">Company</a></li>
+      <li><a href="#">Career</a></li>
+      <li><a href="#">Press</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </div>
+  </div>
+</body>
+</html>
